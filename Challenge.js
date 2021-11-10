@@ -1,18 +1,11 @@
-function Suma(a,b)  {
-    return (a + b);
+const suma = (a, b) =>  {
+    return a + b;
 };
 
-Suma(7, 10);
+suma(7, 10);
 
+const Resta = (a, b) => {
+    return a - b;
+}
 
-function suma(a, b) {
-    let resultado;
-    resultado = a + b;
-    return resultado;
-  }
-  
-  suma(3, 4);
-  suma(2, 15);
-
-console.log("Hola mundo");
-
+resta(10, 6);
