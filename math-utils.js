@@ -20,3 +20,9 @@ function CalcularPromedio(numero1, numero2) {
 };
 
 CalcularPromedio(26, 2);
+
+function NumeroMayor(numero1, numero2) {
+   return (`${numero1}>${numero2} ? ${numero1} : ${"nunero2"}`)
+}
+
+NumeroMayor(15, 18);
