@@ -1,11 +1,14 @@
-const suma = (a, b) =>  {
-    return a + b;
+function Sumar(numero1, numero2)  {
+    const resultado = numero1 + numero2;
+    console.log(resultado);
+    return resultado;
 };
 
-suma(7, 10);
+Sumar(7, 10);
 
-const Resta = (a, b) => {
-    return a - b;
-}
-
-resta(10, 6);
+function Restar(numero1, numero2)  {
+    const resultado = numero1 - numero2;
+    console.log(resultado);
+    return resultado;
+};
+Restar(12, 5);
